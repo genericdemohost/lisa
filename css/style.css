@@ -1,0 +1,547 @@
+.navbar navbar-inverse navbar-fixed-top {
+    
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+
+.navbar-custom {
+  background-color: #008fcc;
+  border-color: #0078ab;
+}
+
+
+
+.myModalOne {
+    border-color: red;
+	
+}
+
+
+
+
+/*
+#jumbotron1 { 
+    
+    
+    background-image: url("../img/slide11.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+
+#jumbotron2 { 
+    
+    
+   background-image: url("../img/slide9.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+}
+
+*/
+
+.img-responsive {
+    
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-width: 25px;
+    border-color: Black;
+}
+
+.label {
+    background-color: purple;
+   
+}
+
+/*
+body { 
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-image: url("../img/slide9.jpg");
+    background-repeat: no-repeat;
+    
+}*/
+
+/*
+body {
+    background-image:url("../img/city.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+/* BACKGROUND IMAGE START */
+
+#bg {
+  position: fixed; 
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+#bg img {
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+/* BACKGROUND IMAGE END */
+
+
+
+/* POSTCARD - FINAL FORM*/
+
+@font-face {
+  font-family: "handwriting";
+  src: url(journal.eot);
+  src: url(journal.eot?) format("eot"),url(journal.woff) format("woff"),url(journal.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "typewriter";
+  src: url(veteran_typewriter.eot);
+  src: url(veteran_typewriter.eot?) format("eot"),url(veteran_typewriter.woff) format("woff"),url(veteran_typewriter.ttf) format("truetype");
+}
+
+
+.postcard {
+  position: relative;
+  width: 740px;
+  height: 498px;
+  margin: 100px 300px;
+  background: #FFF url(http://s32.postimg.org/ykhx98odh/background.jpg);
+}
+
+.messageto {
+  position: absolute;
+  left: 415px;
+  top: 185px;
+  font: 15px typewriter,sans-serif;
+}
+
+#from {
+  position: absolute;
+  left: 398px;
+  top: 235px;
+}
+
+#reply {
+  position: absolute;
+  left: 390px;
+  top: 285px;
+}
+
+#message {
+  position: absolute;
+  left: 20px;
+  top: 70px;
+}
+
+label {
+  font: .8em typewriter,sans-serif;
+}
+
+input,textarea {
+  font: 15px/13px handwriting,sans-serif;
+  border: none;
+  padding: 0 10px;
+  margin: 0;
+  width: 240px;
+  background: none;
+}
+
+input:focus,textarea:focus {
+  background: rgba(0,0,0,.1);
+  border-radius: 5px;
+  outline: none;
+}
+
+input {
+  height: 2.5em;
+/* for IE */
+  vertical-align: middle;
+/* This is optional but it makes legacy IEs look better */
+}
+
+textarea {
+  display: block;
+  padding: 10px;
+  margin: 10px 0 0 -10px;
+  width: 340px;
+  height: 360px;
+  resize: none;
+  overflow: auto;
+}
+
+button {
+  position: absolute;
+  left: 440px;
+  top: 360px;
+  padding: 5px;
+  font: bold .6em sans-serif;
+  border: 2px solid #333;
+  border-radius: 5px;
+  background: none;
+  cursor: pointer;
+  -webkit-transform: rotate(-1.5deg);
+  -moz-transform: rotate(-1.5deg);
+  -ms-transform: rotate(-1.5deg);
+  -o-transform: rotate(-1.5deg);
+  transform: rotate(-1.5deg);
+}
+
+button:after {
+  content: " >>>";
+}
+
+button:hover,button:focus {
+  outline: none;
+  background: #000;
+  color: #FFF;
+}
+
+/*
+body {
+  font: 21px sans-serif;
+  padding: 2em;
+  margin: 0;
+  background: #222;
+} */
+
+/* POSTCARD - FINAL FORM*/
+
+html, body {
+  height:100%;
+  
+}
+#wrapper {
+	height:100%;
+	background-image:url(http://s32.postimg.org/4zu1e229x/pexels_photo_70402.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+
+
+
+/* DONATE BEGIN */
+
+.donation-container {
+	height: 1000px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+
+.donation-box {
+	width: 390px;
+	height: 386px;
+	background-color: #F5F5F5;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	
+	-webkit-transition: all 0.15s ease-out;
+	-moz-transition: all 0.15s ease-out;
+	-o-transition: all 0.15s ease-out;
+	transition: all 0.15s ease-out;
+}
+
+.donation-box .title {
+	background-color: #C1D82F;
+	width: 100%;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	color: white;
+	text-align: center;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	font-size: 15px;
+}
+
+.donation-box .donate-button {
+	background-color: #C1D82F;
+	width: 100%;
+	color: white;
+	text-align: center;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	font-size: 18px;
+	bottom: 0;
+	position: absolute;
+	cursor: pointer;
+	font-weight: 800;
+}
+
+.donation-box .fields {
+	width: 59%;
+	display: block;
+	position: absolute;
+	top: 60px;
+	left: 15px;
+}
+
+.donation-box .fields input {
+	width: 90%;
+	font-size: 17px;
+	padding: 10px;
+	border-radius: 4px;
+	border-width: 0px;
+	color: #5C5C5C;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	margin-bottom: 10px;
+	-webkit-font-smoothing: antialiased;
+}
+
+::-webkit-input-placeholder {
+   color: #cdcdcd;
+   font-size: 15px;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #cdcdcd;
+   font-size: 15px;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #cdcdcd;
+   font-size: 15px; 
+}
+
+:-ms-input-placeholder {  
+   color: #cdcdcd;
+   font-size: 15px;
+}
+
+.donation-box .amount {
+	width: 30%;
+	display: block;
+	position: absolute;
+	top: 60px;
+	right: 15px;
+}
+
+.donation-box .amount .button {
+	width: 100%;
+	background-color: gray;
+	margin-bottom: 10px;
+	text-align: center;
+	color: white;
+	padding: 15px 0 15px 0;
+	border-radius: 4px;
+	font-size: 20px;
+	cursor: pointer;
+	
+	-webkit-transition: 400ms background-color;
+	-moz-transition: 800ms opacity, 800ms right;
+	-ms-transition: 800ms opacity, 800ms right;
+	-o-transition: 800ms opacity, 800ms right;
+	transition: 200ms background-color;
+}
+
+.donation-box .amount .button:hover {
+	background-color: #393939;
+}
+
+.donation-box .amount .button.selected {
+	background-color: #393939;
+}
+
+.donation-box .amount .button input {
+	min-width: 34px;
+	font-size: 20px;
+	border: none;
+	background-color: transparent;
+	color: white;
+	font-family: Montserrat, sans-serif;
+	font-stretch: normal;
+	font-style: normal;
+	font-variant: normal;
+	border-bottom: 2px dashed white;
+	-webkit-font-smoothing: antialiased;
+	-webkit-transition: all 0.15s ease-out;
+	-moz-transition: all 0.15s ease-out;
+	-o-transition: all 0.15s ease-out;
+	transition: all 0.15s ease-out;
+}
+
+.set-amount {
+	max-width: 96px;
+}
+
+.switch {
+  position: absolute;
+  top: 190px;
+  left: 15px;
+  margin: 20px auto;
+  height: 26px;
+  width: 58.5%;
+  background: white;
+  border-radius: 3px;
+}
+
+.switch-label {
+  position: relative;
+  z-index: 2;
+  float: left;
+  width: 49%;
+  line-height: 26px;
+  font-size: 11px;
+  color: #5C5C5C;
+  text-align: center;
+  cursor: pointer;
+  font-weight: bold;
+}
+.switch-label:active {
+  font-weight: bold;
+}
+
+.switch-label-off {
+  padding-left: 2px;
+}
+
+.switch-label-on {
+  padding-right: 2px;
+}
+
+.switch-input {
+  display: none;
+}
+.switch-input:checked + .switch-label {
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.65);
+  
+  -webkit-transition: 0.15s ease-out;
+  -moz-transition: 0.15s ease-out;
+  -o-transition: 0.15s ease-out;
+  transition: 0.15s ease-out;
+}
+.switch-input:checked + .switch-label-on ~ .switch-selection {
+  left: 114px;
+}
+
+.switch-selection {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  top: 2px;
+  left: 2px;
+  width: 49%;
+  height: 22px;
+  background: #65bd63;
+  border-radius: 3px;
+  background-color: #C1D82F;
+  
+  -webkit-transition: left 0.15s ease-out;
+  -moz-transition: left 0.15s ease-out;
+  -o-transition: left 0.15s ease-out;
+  transition: left 0.15s ease-out;
+}
+
+.checkboxes {
+	position: absolute;
+	top: 242px;
+	left: 13px;
+}
+
+.checkboxes label {
+	position: relative;
+	top: -8px;
+	font-size: 13px;
+	color: gray;
+}
+
+.checkbox {
+	-webkit-appearance: none;
+	background-color: #fafafa;
+	border: 1px solid #C1D82F;
+	padding: 9px;
+	border-radius: 3px;
+	display: inline-block;
+	position: relative;
+	
+	-webkit-transition: all 0.15s ease-out;
+	-moz-transition: all 0.15s ease-out;
+	-o-transition: all 0.15s ease-out;
+	transition: all 0.15s ease-out;
+}
+
+.checkbox:active, .checkbox:checked:active {
+	
+}
+
+.checkbox:checked {
+	background-color: #C1D82F;
+	border: 1px solid #C1D82F;
+	color: white;
+}
+
+.checkbox:checked:after {
+	content: '\2714';
+	font-size: 14px;
+	position: absolute;
+	top: 0px;
+	left: 3px;
+	color: white;
+}
+
+.confirm {
+	display: none;
+	position: absolute;
+	top: 335px;
+	left: 15px;
+	right: 15px;
+	font-size: 16px;
+	
+	-webkit-transition: all 0.15s ease-out;
+	-moz-transition: all 0.15s ease-out;
+	-o-transition: all 0.15s ease-out;
+	transition: all 0.15s ease-out;
+}
+
+.confirm i {
+	font-weight: bold;
+	text-decoration: underline;
+	font-style: normal;
+}
+
+
+
+
+
+
+/* DONATE END */
+
+
+/* MAP */
+
+.navigation {
+  padding: 25px;
+  margin-left: 400px;
+
+}
+/*
+@media screen and (max-width: 740px){
+body {    
+    position: absolute;
+     }
+}
+
+@media screen and (max-width: 478px) {
+header {
+    position: absolute;
+}*/
